@@ -1,0 +1,132 @@
+
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #b92b27;
+}
+
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+.noob {
+    background-color: green;
+    color: aqua;
+}
+
+/* descendant selector */
+
+.bewakoof a {
+    color: white;
+    
+}
+
+nav ul li a {
+    color: yellowgreen;
+}
+
+p + h3 {
+    text-decoration: underline;
+}
+
+.noob + button {
+    background-color: cornflowerblue;
+    color: chartreuse;
+}
+
+div > input {
+    background-color: blanchedalmond ;
+}
+
+input[type="text"] {
+    color: blue;
+}
+
+input[type="password"] {
+    color: red;
+}
+
+input[type] {
+    background-color: ghostwhite;
+}
+#myId p {
+    color: white;
+}
+
+body {
+    background-color: #59578f;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h3:hover {
+    text-decoration: overline;
+}
+
+button:active {
+    background-color: hotpink;
+    color: black;
+}
+
+p:active {
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + label {
+    color: greenyellow;
+}
+
+h1::first-letter {
+    color: white;
+}
+
+p::first-line {
+    color: white;
+}
+
+p::selection {
+    background-color: greenyellow;
+}
+
+body {
+    background-image: radial-gradient(circle at top right, rgb(36, 9, 119) 0%, rgb(36, 9, 119) 48%,rgb(72, 7, 149) 48%, rgb(72, 7, 149) 53%,rgb(109, 5, 178) 53%, rgb(109, 5, 178) 56%,rgb(145, 2, 208) 56%, rgb(145, 2, 208) 69%,rgb(181, 0, 237) 69%, rgb(181, 0, 237) 100%);
+}
+
+h3 {
+    color: white;
+}
+
+input[type="radio"] + label {
+    color: white;
+}
+
+ul {
+    color: white;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite; /* Apply animation */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); } /* Start position */
+    100% { transform: rotate(360deg); } /* End position */
+  }
+  

@@ -1,0 +1,21 @@
+h2 {
+    /* We use display inline to arrange all the divs at the same row */
+    display: inline;
+    background-color: pink;
+}
+
+.fr {
+    /* We use display block for span property because it is by default inline so if we want to make it as a block element then we have to use it */
+    display: block;
+    background-color: mediumseagreen;
+}
+
+#span {
+    /* background-color: ; */
+    border: 2px solid black;
+    height: 100px;
+    width: 40px;
+    /* span element sets only left and right margin and padding */
+    padding: 50px;
+    margin: 20px;
+}

@@ -1,0 +1,19 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: #4dff00ff;
+    /* transitions enable you to define the transition between two states of an element */
+    /* Transition also has short Hand property called transition: Property Name | duration | timing-funtion | delay */
+    /* transition-duration: 0.5s;
+    transition-delay: 0.5; */
+    margin-top: 10px;
+    /* It sets the div between the center of the web page */
+    margin: 0 auto;
+    transition: margin-top 2s ease-in 0.2s;
+
+}
+
+div:hover {
+    margin-top: 400px;
+    background-color: pink;
+}

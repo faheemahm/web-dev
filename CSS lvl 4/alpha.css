@@ -1,0 +1,12 @@
+div {
+    height: 200px;
+    width: 200px;
+    /* Dim hojata color a : alpha value se */
+    background-color: rgba(77, 255, 0, 0.5);
+}
+
+#opacity {
+    background-color: #ffa511;
+    /* Poora element ich Dim hojata opacity value se */
+    opacity: 0.5;
+}

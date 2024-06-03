@@ -1,0 +1,45 @@
+/* (1) Position - Static : The top, right, bottom, left, and z-index properties have no effect. This is the default value */
+div {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block
+}
+
+#static {
+    background-color: yellow;
+    position: static;
+    /* IN static position the elemnet follow the position and not change its properties. The given below two properties does not apply on it because static is a default value */
+    top: 100px;
+    left: 100px;
+}
+
+/* (2) Position - Relative : The offset is relative to iteself based on the values of top, right, bottom, and left */
+#relative {
+    background-color: pink;
+    position: relative;
+    /* It moves from its original place to the top and left which is given  below */
+    top: 100px;
+    left: 100px;
+}
+
+/* (3) Position - Absolute : The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned to relative to its closest positioned ancestor, if any; otherwise. it is placed relative to its initial containing block */
+#absolute {
+    background-color: magenta;
+    position: absolute;
+    /* It counts its X and Y axis fromm the page so From top of the page 100px and form top left its 100px as given below*/
+    top: 100px;
+    left: 100px;
+}
+
+#fixed {
+    background-color: darkslategray;
+    color: white;
+    position: fixed;
+    /* It is the fixed porperty and it does'nt move*/
+    top: 100px;
+    left: 100px;
+}

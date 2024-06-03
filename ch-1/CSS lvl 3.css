@@ -1,0 +1,40 @@
+div {
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+    border: 5px solid black;
+    border-radius: 10px;
+    padding-top: 50px;
+    margin: 10px 20px 30px 40px;
+}
+
+
+h1 {
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: green; */
+    border: 2px dashed green;   
+    margin: 0px;
+}
+
+button {
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px 25px;
+}
+
+button:hover {
+    background-color: black;
+    color: greenyellow
+}
+
+button:active {
+    background-color: orange;
+    color: blue;
+}
+

@@ -1,0 +1,39 @@
+div {
+    /* It inceases the hirght of a div */
+    height: 200px;
+    /* It increases the width of a div */
+    width: 600px;
+    /* I am giving it a background-color to make it look more efficient */
+    background-color: pink;
+    /* We use border for width style and color. I am using a border short hand property */
+    border: 4px solid black;
+    /* We can also customize the sides of a border */
+    /* border-left: greenyellow solid;
+    border-top: 4px blue dashed; */
+    /* Used to round the corners of an element's outer border edge. We can also change the each side of a border radius. If the height and width have the same pixels then we can create a border radius as a circle by, border-radius: 50% */
+    border-radius: 12px;
+    /* padding comes under the div border aka inside a box */
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    /* We use Margin Property to move the complete div. we can move it from top, right, bottom, left. The Short hand for amrgin is as same as Padding Short hand */
+    margin-bottom: 25px;
+    margin: 10px 20px 30px 40px;
+}
+
+h1 {
+    /* There are many styles when it comes to change the style of a border */
+    border: 3px dashed black;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    margin: 0;
+}
+
+button {
+    border: 3px solid black;
+    background-color: yellow;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}

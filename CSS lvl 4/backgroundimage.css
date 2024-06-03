@@ -1,0 +1,13 @@
+div {
+    height: 190px;
+    width: 127px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    /* Background Image helps you to upload an image in a div */
+    background-image: url(ahmed-aldaie-j-nRfGUHswQ-unsplash.jpg);
+    /* backgournd-size: contain | cover | auto */
+    /* contain: repeats the image if the div have an extra space */
+    /* cover: Crops the image withouut scaling */
+    /* Auto: It Stretches the Image*/
+    background-size: contain;
+}

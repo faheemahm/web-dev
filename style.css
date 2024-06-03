@@ -1,0 +1,38 @@
+.card {
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+h2 {
+  color: #d56f3e;
+}
+
+/* we use span peopert to select a specific word from a line so that we can edit it or customize it */
+span {
+  color: #9d6f24;
+}
+
+h4 {
+  text-align: right;
+  color: #3c787e;
+}
+
+#pets {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* We use flex-wrap: wrap; to bring the 2nd card below the first card */
+@media (max-width: 375px) {
+  #pets {
+    flex-wrap: wrap;
+  }
+}

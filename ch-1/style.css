@@ -1,0 +1,45 @@
+#mainTopic {
+    color: blue;
+    font-family: Georgia;
+}
+
+* {
+    text-align: center;
+}
+
+h5 {
+    font-family: Georgia;
+}
+h3 {
+    font-family: Georgia;
+}
+
+.ishowspeed {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+div>button {
+    background-color: purple;
+    color: azure;
+    border-radius: 7px;
+    box-shadow: 2px 4px 8px black;
+}
+
+div>button:hover {
+    background-color: yellow;
+    color: blue;
+    box-shadow: 4px 8px 16px black;
+}
+
+.ishowspeed:nth-of-type(odd) {
+    color: yellow;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+#yes:checked + label {
+    color: darkgreen;
+}
