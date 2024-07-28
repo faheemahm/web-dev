@@ -33,8 +33,29 @@ body {
     bottom: 0px;
     width: 100%;
     height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.album {
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+.music-player-album-picture {
+    margin-right: 1rem;
+}
+
+.song-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.song-name-hero, .opacity {
+    margin: 0;
+}
 
 a {
     text-decoration: none;
@@ -211,28 +232,25 @@ a {
     opacity: 0.4;
 }
 
-.music-player {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.album {
-    width: 25%;
-    /* background-color: pink; */
-}
-
 .player {
     width: 50%;
-    /* background-color: orange; */
-
 }
 
 .controls {
     width: 25%;
-    /* background-color: green; */
+    display: flex;
+    justify-content: space-evenly;
+    /* height: 0.2rem; */
+    margin-bottom: 10rem;
+    /* flex-direction: row; */
 
 }
+
+.five-icons {
+    display: flex;
+    flex-direction: row;
+}
+
 
 .player-controls {
     display: flex;
@@ -286,4 +304,51 @@ a {
 
 .opacity {
     opacity: 0.7;
+}
+
+
+.song-info {
+    font-size: 80%;
+    font-weight: 700;
+}
+
+
+.opacity {
+    font-size: 75%;
+    margin-top: 0.35rem;
+}
+.liked-song {
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+    opacity: 0.7;
+}
+
+.window {
+    margin-left: 0.8rem;
+    opacity: 0.7;
+}
+
+.liked-hover {
+    display: flex;
+    opacity: 0.7;
+}
+
+.liked-song:hover {
+    opacity: 1;
+    
+}
+
+.window:hover {
+    opacity: 1;
+}
+
+.controls {
+    margin-bottom: 0rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.five-icons {
+    align-items: center;
+    justify-content: space-between;
 }
